@@ -1,4 +1,16 @@
 body {
+  display: flex;
+  //background-color: #FF0000;
+}
 
+main {
+  flex:4;
   background-color: #FF0000;
+}
+
+
+aside {
+background-color: #a9b9ba;
+flex: 1;
+
 }
