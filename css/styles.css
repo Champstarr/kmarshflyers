@@ -8,6 +8,23 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+.btn {
+padding: 1rem;
+font-size: 1rem;
+text-transform: uppercase;
+font-weight: bold;
+
+color: white;
+background-color: #2ecc71;
+
+width: 12em;
+}
+
+.btnPro {
+background-color: #f39c12;
+
+}
+
 /* Variables */
 
 /* Nav */
