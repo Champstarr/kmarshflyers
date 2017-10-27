@@ -1,16 +1,30 @@
-body {
+/*Main*/
+
+@import url('https://fonts.googleapis.com/css?family-Montserrat');
+
+body{
   display: flex;
-  //background-color: #FF0000;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
 }
 
-main {
-  flex:4;
-  background-color: #FF0000;
+/* Variables */
+
+/* Nav */
+.navRow {
+  display: flex;
+  font-size: 1.5em;
+
 }
 
+.navRow > ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
 
-aside {
-background-color: #a9b9ba;
-flex: 1;
+.navRow > ul > li {
+
 
 }
