@@ -80,3 +80,15 @@ text-transform: uppercase;
   width: 80%;
 
 }
+
+/*Email*/
+.emailRow {
+ display: flex;
+ flex-direction: column;
+ color: white;
+ background-color: #2ecc71; 
+ background-image: url("img/sanfranciscoGreen.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+
+}
