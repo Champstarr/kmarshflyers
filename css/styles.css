@@ -116,6 +116,31 @@ text-transform: uppercase;
   flex: 1;
   padding: 1rem;
   font-weight: bold;
+  border: none;
 }
 
+
+
 /*Features*/
+
+.featuresRow {
+  display: flex;
+  justify-content: center;
+
+}
+
+.featuredItemRow {
+  display: flex;
+  flex: 1;
+  
+}
+
+.featuredItemBox{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
