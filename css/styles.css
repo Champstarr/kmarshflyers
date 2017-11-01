@@ -27,6 +27,17 @@ background-color: #f39c12;
 
 /* Variables */
 
+:root {
+--centerWidth: 80%;
+}
+
+@media(min-width: 1600px) {
+  :root{
+  --centerWidth: 40%; 
+  }
+
+}
+
 /* Nav */
 .navRow {
   display: flex;
