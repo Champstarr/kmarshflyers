@@ -99,7 +99,8 @@ text-transform: uppercase;
 .emailForm {
   display: flex;
   width: 100%;
-  
+}
 
-
+.emailRow > .centerContent > h1 {
+  padding: 1em; 
 }
