@@ -166,3 +166,11 @@ text-transform: uppercase;
   text-align: center;
   padding: 4em;
 }
+
+.premiumRow > .centerContent > h1 {
+  padding: 1em;
+
+}
+
+/*Footer*/
+
