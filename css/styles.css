@@ -104,3 +104,18 @@ text-transform: uppercase;
 .emailRow > .centerContent > h1 {
   padding: 1em; 
 }
+
+.emailForm > input[type="text"]{
+  flex: 8;
+  border: none;
+  padding: 1.2em;
+  text-align: center;
+}
+
+.emailForm > button {
+  flex: 1;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+/*Features*/
