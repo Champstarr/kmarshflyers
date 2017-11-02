@@ -40,6 +40,12 @@ background-color: #f39c12;
   --navRowDir: row;
   }
 
+  .featuredItemRow {
+  flex-direction: row-reverse;
+
+
+  }
+
 }
 
 /* Nav */
@@ -55,6 +61,7 @@ background-color: #f39c12;
   width: 100%;
   justify-content: space-around;
   align-items: center;
+  flex-direction: var(--navRowDir);
 }
 
 .navRow > ul > li {
