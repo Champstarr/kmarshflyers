@@ -29,11 +29,13 @@ background-color: #f39c12;
 
 :root {
 --centerWidth: 80%;
+--featuredItemRowDir: column;
 }
 
 @media(min-width: 1600px) {
   :root{
   --centerWidth: 40%; 
+  --featuredItemRowDir: row;
   }
 
 }
