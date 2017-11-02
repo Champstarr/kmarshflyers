@@ -30,12 +30,14 @@ background-color: #f39c12;
 :root {
 --centerWidth: 80%;
 --featuredItemRowDir: column;
+--navRowDir: column;
 }
 
 @media(min-width: 1600px) {
   :root{
   --centerWidth: 40%; 
   --featuredItemRowDir: row;
+  --navRowDir: row;
   }
 
 }
@@ -44,6 +46,7 @@ background-color: #f39c12;
 .navRow {
   display: flex;
   font-size: 1.5em;
+  flex-direction: var(--navRowDir);
 
 }
 
@@ -145,6 +148,8 @@ text-transform: uppercase;
 .featuredItemRow {
   display: flex;
   flex: 1;
+  flex-direction: var(--featuredItemRowDir);
+
   
 }
 
