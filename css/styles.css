@@ -17,7 +17,7 @@ font-weight: bold;
 color: white;
 background-color: #2ecc71;
 
-width: 12em;
+width: 11em;
 }
 
 .btnPro {
@@ -26,7 +26,6 @@ background-color: #f39c12;
 }
 
 /* Variables */
-
 :root {
 --centerWidth: 80%;
 --featuredItemRowDir: column;
@@ -40,19 +39,11 @@ background-color: #f39c12;
   --navRowDir: row;
   }
 
-  .featuredItemRow {
-  flex-direction: row-reverse;
-
-
-  }
-
-}
 
 /* Nav */
-.navRow {
+  Row {
   display: flex;
   font-size: 1.5em;
-  flex-direction: var(--navRowDir);
 
 }
 
@@ -61,7 +52,6 @@ background-color: #f39c12;
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  flex-direction: var(--navRowDir);
 }
 
 .navRow > ul > li {
@@ -129,75 +119,9 @@ text-transform: uppercase;
 }
 
 .emailForm > input[type="text"]{
-  flex: 8;
-  border: none;
-  padding: 1.2em;
-  text-align: center;
-}
-
-.emailForm > button {
-  flex: 1;
-  padding: 1rem;
-  font-weight: bold;
-  border: none;
-}
-
-
-
-/*Features*/
-
-.featuresRow {
-  display: flex;
-  justify-content: center;
-
-}
-
-.featuredItemRow {
-  display: flex;
-  flex: 1;
-  flex-direction: var(--featuredItemRowDir);
 
   
 }
-
-.featuredItemBox{
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  margin: 1em;
-}
-
-.featuredItemBox > img {
-  width: 80%;
-  height: auto;
-
-
-}
-
-.premiumRow {
-  text-transform: uppercase;
-  display: flex;
-  color: white;
-  flex-direction: column;
-  background-color: #2c3e50;
-  background-image: url("/img/NYCBlue.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  align-items: center;
-  text-align: center;
-  padding: 4em;
-}
-
-.premiumRow > .centerContent > h1 {
-  padding: 1em;
-
-}
-
-/*Footer*/
 
 .socialRow {
   display: flex;
