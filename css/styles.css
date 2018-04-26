@@ -21,7 +21,16 @@ header {
  width: 100%;
  justify-content: space-around;
  align-items: center;
+ padding: 10px, 40px;
+
 }
+
+.navRow>ul>li {
+  flex: 1;
+  padding: 1em;
+}
+
+
 
 main {
 display: flex;
