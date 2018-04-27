@@ -10,11 +10,14 @@ header {
   justify-content: center;
   background-color: #2c3e50;
   opacity: 0.8;
+  background-image: url("images/spitfire_headOn.jpg");
+  background-size: 50% 50%;
 }
 
 .navRow {
  display: flex;
  font-size: 1.5em;
+ background-image: url("images/spitfire_headOn.jpg");
 }
 
 .navRow>ul 
