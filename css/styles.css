@@ -5,9 +5,12 @@
 
 
 header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    height: 200px;
     background: 
     /* top, transparent red, faked with gradient */ 
     linear-gradient(
@@ -18,11 +21,15 @@ header {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+  
+
 
 .navRow {
  display: flex;
- font-size: 1.5em;
- background-image: url("images/spitfire_headOn.jpg");
+ background-color: #5f5f5f;
+ font-size: 1.5em; 
+ height: 50px;
+ margin-bottom: 10px;
 }
 
 .navRow>ul 
@@ -32,19 +39,23 @@ header {
  justify-content: space-around;
  align-items: center;
  padding: 10px, 40px;
-
 }
 
 .navRow>ul>li {
   flex: 1;
   padding: 1em;
-  color: Black;
+  color: white;
+}
+
+.navRow>ul>li>a {
+ color: white;
+ text-decoration: none;
+
 }
 
 main {
 display: flex;
 flex: 4;
-
 }
 
 aside {
