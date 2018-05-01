@@ -41,7 +41,13 @@ header {
  padding: 10px, 40px;
 }
 
+.navMenu:hover {  
+  background-color: black;
+
+}
+
 .navRow>ul>li {
+  height: 100%
   flex: 1;
   padding: 1em;
   color: white;
