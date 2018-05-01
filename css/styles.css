@@ -24,38 +24,52 @@ header {
   
 .navRow {
  display: flex;
- background-color: #5f5f5f;
- font-size: 1.5em; 
- height: 50px;
- margin-bottom: 10px;
+ /* Maybe add flex-direction row?*/
+ background-color: #333;
+ overflow: hidden;
+ 
 }
 
-.navRow>ul 
+.navRow a {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-around;
+  width: 100%;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.navRow a:hover {
+ background-color: #ddd;
+ color: black;
+}
+
+/*.navRow 
 {
  display: flex;
  width: 100%;
  justify-content: space-around;
  align-items: center;
  padding: 10px, 40px;
-}
+}*/
 
-.navMenu:hover {  
-  background-color: black;
-
-}
-
-.navRow>ul>li {
+/*.navRow {
   height: 100%
   flex: 1;
   padding: 1em;
   color: white;
-}
+}*/
 
-.navRow>ul>li>a {
+/*.navRow>ul>li>a {
  color: white;
  text-decoration: none;
 
-}
+}*/
 
 main {
 display: flex;
