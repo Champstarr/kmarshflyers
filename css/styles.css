@@ -50,6 +50,11 @@ header {
  color: black;
 }
 
+.navRow>a:active {
+background-color: #42f49e;
+
+}
+
 /*.navRow 
 {
  display: flex;
