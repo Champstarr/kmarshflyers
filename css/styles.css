@@ -61,11 +61,12 @@ background-color: #42f49e;
 #left {
 margin-right: 20px;
 padding-right: 10px;
-
-
 }
 
+.asidep {
+ line-height: 1.5;
 
+}
 
 /*.navRow 
 {
