@@ -72,13 +72,7 @@ padding-right: 10px;
 
 
 }
-.flex>#right>#weatherwidget-io {
 
-
-  
-
-
-}
 
 .asidep {
  line-height: 1.5;
@@ -88,6 +82,9 @@ padding-right: 10px;
 #weather {
  color: black;
  text-align: center;
+ border-bottom: 5px solid red;
+ padding-bottom: 20px;
+ border-radius: 5px;
  
 
 }
