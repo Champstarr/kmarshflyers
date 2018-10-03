@@ -63,7 +63,17 @@ display: flex;
 flex: 1;
 margin-right: 20px;
 padding-right: 10px;
+
 }
+
+.content {
+ border-style: solid;
+ border-color: #DCDCDC;
+ padding: 0.5em;
+ margin: 1em;  
+
+}
+
 
 #right {
   /*display: flex;
