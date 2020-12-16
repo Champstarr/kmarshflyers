@@ -17,9 +17,16 @@ header {
       rgba(153, 214, 255, 0.45), 
       rgba(153, 214, 255, 0.45)
     ), */
-   url("../images/IMG_6335.jpg");
+   url("../images/ImuaSpit.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+#imgHeader {
+
+  position: absolute;
+  top: -5px;
+
 }
   
 .navRow {
