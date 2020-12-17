@@ -26,7 +26,6 @@ header {
 
   position: absolute;
   top: -5px;
-
 }
   
 .navRow {
@@ -37,8 +36,7 @@ header {
  margin-bottom: 10px;
  position: -webkit-sticky;
  position: sticky;
- top: 0;
- 
+ top: 0; 
 }
 
 .navRow a {
@@ -62,7 +60,6 @@ header {
 
 .navRow>a:active {
 background-color: #42f49e;
-
 }
 
 #left {
@@ -70,7 +67,6 @@ display: flex;
 flex: 1;
 margin-right: 20px;
 padding-right: 10px;
-
 }
 
 .content {
@@ -79,21 +75,16 @@ padding-right: 10px;
  padding: 0.5em;
  margin: 1em;
  line-height: 1.5;  
-
 }
-
 
 #right {
   /*display: flex;
   flex: 1;*/
   width: 320px;
-
 }
-
 
 .asidep {
  line-height: 1.5;
-
 }
 
 #weather {
@@ -105,7 +96,6 @@ padding-right: 10px;
  border-bottom: 5px solid red;
  padding-bottom: 20px;
  border-radius: 200px;*/
-
 }
 
 #weather:after {
