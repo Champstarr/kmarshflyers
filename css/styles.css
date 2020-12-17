@@ -111,6 +111,10 @@ border-radius: 3px;
 margin-top: 10px;
 }
 
+.panel-body {
+ background-color: #CCD1D6;
+}
+
 /*.navRow 
 {
  display: flex;
