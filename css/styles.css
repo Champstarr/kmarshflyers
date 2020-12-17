@@ -112,7 +112,15 @@ margin-top: 10px;
 }
 
 .panel-body {
- background-color: #CCD1D6;
+ background-color: #E8EBEF;
+ text-align: center;
+ border: 2px 2px 2px 2px;
+ border-color: black;
+}
+
+.article {
+ border: 2px 2px 2px 2px;
+ border-color: black;
 }
 
 /*.navRow 
