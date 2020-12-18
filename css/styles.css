@@ -9,19 +9,25 @@ header {
     text-align: center;
     font-size: 40px;
     height: 200px;
-    background: 
+    /*background:*/ 
     /* top, transparent red, faked with gradient  
     linear-gradient(
       rgba(153, 214, 255, 0.45), 
       rgba(153, 214, 255, 0.45)
     ), */
-   url("../images/ImuaSpit.jpg");
+   /*url("../images/ImuaSpit.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  object-fit: contain;*/
+}
+
+#bgImg {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  object-fit: contain;
 }
 
 #imgHeader {
-
   position: absolute;
   top: -5px;
 }
