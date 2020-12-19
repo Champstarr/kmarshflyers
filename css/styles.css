@@ -94,6 +94,7 @@ table {
 
 th {
   text-align: left;
+  background-color: #D4E6F1;
 }
 
 td {
@@ -107,6 +108,10 @@ th, td {
 table, th, td {
   border: 1px solid #000;
   border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #FAE5D3;
 }
 
 #right {
