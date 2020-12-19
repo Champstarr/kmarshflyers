@@ -87,7 +87,7 @@ h2 {
 }
 
 table {
-  align-self: center;
+  margin: auto;
   width: 400px;
   border-spacing: 5px;
 }
