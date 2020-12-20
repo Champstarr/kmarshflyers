@@ -148,6 +148,7 @@ margin-top: 10px;
 
 .weatherwidget-io {
  position: relative;
+ overflow: hidden;
 }
 
 .panel-body {
@@ -155,6 +156,7 @@ margin-top: 10px;
  text-align: center;
  padding: 5px;
  border: 2px dotted black;
+ margin: auto;
 }
 
 .article {
@@ -163,6 +165,7 @@ margin-top: 10px;
 
 .contentP {
   font-size: 17px;
+  padding: 5px;
 }
 
 /*.navRow 
@@ -204,3 +207,7 @@ flex: 1;*/
   flex: 1;
 }
 
+script {
+  position: fixed;
+  overflow: hidden;
+}
