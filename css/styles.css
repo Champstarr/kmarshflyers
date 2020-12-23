@@ -123,6 +123,7 @@ tr:nth-child(even) {
 
 .asidep {
  line-height: 1.5;
+ font-weight: bold;
 }
 
 #weather {
