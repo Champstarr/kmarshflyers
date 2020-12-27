@@ -222,3 +222,8 @@ flex: 1;*/
 }
 
 
+#bgImagePlanes {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
