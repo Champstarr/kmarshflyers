@@ -227,3 +227,8 @@ flex: 1;*/
  background-repeat: no-repeat;
  object-fit: contain; 
 }
+
+#panorama {
+  width: 1200px;
+  height: 250px;
+}
