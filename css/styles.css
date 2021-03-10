@@ -228,7 +228,22 @@ flex: 1;*/
  object-fit: contain; 
 }
 
-#panorama {
-  width: 1200px;
-  height: 250px;
+#fieldPic {
+  display: inline-block;
+
+}
+
+#fieldPic1 {
+  width: 400px;
+  height: 200px;
+}
+
+#fieldPic2 {
+  width: 400px;
+  height: 200px;
+}
+
+#fieldPic3 {
+  width: 400px;
+  height: 200px;
 }
