@@ -232,29 +232,8 @@ flex: 1;*/
   display: inline-block;
 }
 
-#fieldPic1 {
+
+.contentPic {
   width: 400px;
   height: 200px;
 }
-
-#fieldPic2 {
-  width: 400px;
-  height: 200px;
-}
-
-#fieldPic3 {
-  width: 400px;
-  height: 200px;
-}
-
-#fieldPic7 {
-  width: 400px;
-  height: 200px;
-}
-
-#fieldPic8 {
-  width: 400px;
-  height: 200px;
-}
-
-
